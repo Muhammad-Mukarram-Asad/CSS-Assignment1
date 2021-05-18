@@ -1,0 +1,83 @@
+body{
+	
+	margin: 0;
+}
+.Container{
+	background-image: url("https://images.unsplash.com/photo-1530273883449-aae8b023c196?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: 1970px;
+	background-repeat: no-repeat;
+	background-color: darkblue;
+	background-blend-mode: multiply;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+
+
+
+
+}
+.main{
+	display:flex;
+	align-items: flex-start;
+}
+#H1{
+	color: white;
+	font-size: 30px;
+	text-align: left;
+}
+.H2{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.H2:hover{
+	color: black;
+	background-color: white;
+	font-size: 25px;
+	transition: 2s;
+}
+
+.Box1{
+	padding: 10px 20px;
+	background-blend-mode: darken;
+
+}
+.INPUT{
+	font-size: 20px;
+	padding: 20px 25px;
+	font-weight: bold;
+	margin:5px;
+}
+
+#INPUT5{
+	color: white;
+	background-color: green;
+
+}
+
+.Box2{
+	padding: 0 100px;
+}
+img{
+	height: 200px;
+	width: 300px;
+
+}
+
+}
+.Heading2{
+	color:white;
+	font-size:20px;
+}
+#Paragraph{
+	color: white;
+	font-size:15px;
+	align-items: flex-end;
+}
+#Paragraph:hover{
+	color:black;
+	background-color: white;
+	font-size: 20px;
+
+}
